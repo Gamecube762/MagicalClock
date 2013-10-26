@@ -1,0 +1,15 @@
+name: MagicalClock
+main: com.github.Gamecube762.MagicalClock.Main
+author: Gamecube762
+version: 1.0
+prefix: MagClock
+permissions:
+   magicalclock.use:
+      description: Lets them use the clock
+      default: false
+   magicalclock.use.hidefromrest:
+      description: Hides them from others when they hide everyone else
+      default: false
+   magicalclock.donthide:
+      description: Doesn't hide this player from the others
+      default: false
